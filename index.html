@@ -3,36 +3,77 @@
 <html>
 <head>
     <link rel="stylesheet" href="livestrap.css">
+    <link rel="stylesheet" href="custom.css">
 </head>
 
 <body>
-    <!-- whole calculator -->
-    <div class="claculator">
-        <!-- calculator input and display-->
-        <input type="number">
+    <div class="container">
+        <div class="row">
+            <!-- whole calculator -->
+            <div class="col-md-4 offset-md-3">
 
-        <!-- calculator buttons-->
-        <div class="calc-buttons">
-            <button>C</button>
-            <button>+/-</button>
-            <button>&divide;</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>x</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>+</button>
-            <button>0</button>
-            <button>.</button>
-            <button>=</button>
+                <!-- calculator input and display-->
+                <div class="input-group input-group-sm mb-3">
+                    <input type="number" class="calc_input" placeholder="0">
+                </div>
+
+                <!-- calculator buttons-->
+                <div class="btn-dark">
+
+                    <!-- buttons on first row-->
+                    <div class="container">
+                        <div class="row">
+                            <button class="col-md-6">C</button>
+                            <button class="col-md-3">+/-</button>
+                            <button class="col-md-3">&divide;</button>
+                        </div>
+                    </div>
+
+                    <!-- buttons on second row-->
+                    <div class="container">
+                        <div class="row">
+                            <button class="col-md-3">7</button>
+                            <button class="col-md-3">8</button>
+                            <button class="col-md-3">9</button>
+                            <button class="col-md-3">x</button>
+                        </div>
+                    </div>
+                    
+
+                    <!-- buttons on third row-->
+                    <div class="container">
+                        <div class="row">
+                            <button class="col-md-3">4</button>
+                            <button class="col-md-3">5</button>
+                            <button class="col-md-3">6</button>
+                            <button class="col-md-3">-</button>
+                        </div>
+                    </div>
+
+                    
+                    <!-- buttons on fourth row-->
+                    <div class="container">
+                        <div class="row">
+                            <button class="col-md-3">1</button>
+                            <button class="col-md-3">2</button>
+                            <button class="col-md-3">3</button>
+                            <button class="col-md-3">+</button>
+                        </div>
+                    </div>
+
+                    <!-- buttons on fifth row-->
+                    <div class="container">
+                        <div class="row">
+                            <button class="col-md-6">0</button>
+                            <button class="col-md-3">.</button>
+                            <button class="col-md-3">=</button>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
         </div>
-        
     </div>
     
 </body>
