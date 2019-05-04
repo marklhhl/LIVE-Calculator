@@ -142,11 +142,11 @@ function dotClickUpdate() {
 
 // function to handle clear button clicks
 function clearClickUpdate() {
+    equalCLickedPrev = false;
     equal.style.background='#fb6107';
     displayVal = '';
     displayValElement.value = displayVal;
     equation = '';
-    equalCLickedPrev = false;
     curOperator = '';
 }
 
