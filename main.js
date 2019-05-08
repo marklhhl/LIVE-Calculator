@@ -143,7 +143,7 @@ function dotClickUpdate() {
 // function to handle clear button clicks
 function clearClickUpdate() {
     equalCLickedPrev = false;
-    equal.style.background='#fb6107';
+    equal.className='btn-warning';
     displayVal = '';
     displayValElement.value = displayVal;
     equation = '';
@@ -169,7 +169,7 @@ function plusOrMinusClickUpdate() {
 // function to handle operator button clicks
 function operatorClickUpdate(operator){
     equalClickedPrev = false;
-    equal.style.background='#fb6107';
+    equal.class='btn-warning';
     if (displayVal != ''){
         curOperator = operator;
     }
@@ -197,7 +197,7 @@ function equalClickUpdate(){
         displayValElement.value = displayVal;
         // change input background color if answer is 27
         if (displayVal == "27"){
-            equal.style.background='#d7263d';
+            equal.className='btn-danger';
         }
         equation = '';
         curOperator = '';
